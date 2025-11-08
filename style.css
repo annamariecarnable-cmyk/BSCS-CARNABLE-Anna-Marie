@@ -13,7 +13,6 @@ body {
     overflow-x: hidden;
 }
 
-/* Navbar */
 .navbar {
     position: fixed;
     top: 0;
@@ -54,7 +53,6 @@ body {
     color: #d66d43;
 }
 
-/* Sections layout */
 .section {
   min-height: 100vh;
   display: flex;
@@ -73,7 +71,6 @@ body {
   transform: translateY(0);
 }
 
-/* HOME SECTION */
 .home {
     display: flex;
     align-items: center;
@@ -120,7 +117,6 @@ body {
     border: 2px solid #d66d43;
 }
 
-/* Social icons */
 .sci {
   display: flex;
   margin-top: 20px;
@@ -141,7 +137,6 @@ body {
   color: #1f242d;
 }
 
-/* Home image */
 .home-img .img-box {
     position: relative;
     width: 300px;
@@ -157,7 +152,6 @@ body {
     object-fit: cover;
 }
 
-/* Other sections (About, Portfolio, Service, Contact) */
 .content {
     text-align: center;
     max-width: 800px;
@@ -175,7 +169,6 @@ body {
     color: #ccc;
 }
 
-/* Bars background animation */
 .bars-animation {
     position: fixed;
     width: 100%;
@@ -197,4 +190,5 @@ body {
     100% {
         transform: translateY(0%);
     }
+
 }
